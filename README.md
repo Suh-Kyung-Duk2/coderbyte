@@ -29,14 +29,104 @@ Based on your work, another engineer should be able to implement the user interf
 
 You can simplify some complex real world problems if you think it's not worth illustrating in the project.
 
-# Instructions
+# Initialization
 Created one card and two accounts for test
 
 Pin : 1234
 
--Account list
+Account list
 0. Account number 987, money 2000
 1. Account number 654, money 1000
 
+# Tutorial
+
+1) start
+
+------------------------------------------------
+--------------Welcome to SKD Bank---------------
+------------------------------------------------
+After insert card, press y
+
+2) input : y
+
+Card reading...
+
+Card validated!!
+Please enter your pin number
+
+3) input : 1234
+
+You have (2) account
+Account 0, bank account number : 987
+Account 1, bank account number : 654
+Select Account (0~1)
+
+4) input : 0
+
+Select Task(0~3)
+0. Account Balance
+1. Deposit
+2. Withdraw
+3. Exit
+
+5) input : 0
+
+Your Balance : 2000
 
 
+Select Task(0~3)
+0. Account Balance
+1. Deposit
+2. Withdraw
+3. Exit
+
+6) input : 1
+
+After you put the money in,
+Please write down the deposit amount(-1 for Exit) :
+
+7) input : 1000
+
+Success Deposite
+
+Select Task(0~3)
+0. Account Balance
+1. Deposit
+2. Withdraw
+3. Exit
+
+8) input : 2
+
+Please write down the withdrawal amount(-1 for Exit) :
+
+9) input : 100
+
+Success Withdrawal
+
+Select Task(0~3)
+0. Account Balance
+1. Deposit
+2. Withdraw
+3. Exit
+
+10) input : 0
+
+Your Balance : 2900
+
+
+Select Task(0~3)
+0. Account Balance
+1. Deposit
+2. Withdraw
+3. Exit
+
+
+11) input : 3
+
+Thank you.
+Please remove your card
+
+------------------------------------------------
+--------------Welcome to SKD Bank---------------
+------------------------------------------------
+After insert card, press y
