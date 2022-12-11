@@ -153,3 +153,6 @@ ATM is powered from main()
 	Thank you.
 
 	Please remove your card
+	
+![1](https://user-images.githubusercontent.com/120086749/206919904-b24c3e39-f3b2-49ed-8fbb-64fbb98ddb30.JPG)
+![2](https://user-images.githubusercontent.com/120086749/206919942-1231f876-c9f1-482b-b543-672f7195c7b1.JPG)
