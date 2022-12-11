@@ -66,10 +66,10 @@ Account list
 
 	Select Task(0~3)
 
-	\\<!-- 0. Account Balance
-	>>1. Deposit
-	>>2. Withdraw
-	>>3. Exit-->
+	0 Account Balance
+	1 Deposit
+	2 Withdraw
+	3 Exit
 
 5. input : 0
 
