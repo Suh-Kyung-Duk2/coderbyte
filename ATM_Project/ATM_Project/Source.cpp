@@ -224,7 +224,7 @@ int Interface::display(int cmd) {
     if (cmd == eDCMD_AskCard) {
         char choice;
         cout << "------------------------------------------------" << endl;
-        cout << "--------------Welcome to SKD Back---------------" << endl;
+        cout << "--------------Welcome to SKD Bank---------------" << endl;
         cout << "------------------------------------------------" << endl;
         int InsertTrial = 0;
         while (InsertTrial < 3) {
