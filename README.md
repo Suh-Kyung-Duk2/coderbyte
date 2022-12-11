@@ -34,7 +34,7 @@ Created one card and two accounts for test
 
 Pin : 1234
 
-<Account list>
+-Account list
 0. Account number 987, money 2000
 1. Account number 654, money 1000
 
