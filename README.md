@@ -42,88 +42,88 @@ Account list
 
 1. start
 
-After insert card, press y
+	After insert card, press y
 
 2. input : y
 
-Card reading...
+	Card reading...
 
-Card validated!!
-Please enter your pin number
+	Card validated!!
+	Please enter your pin number
 
 3. input : 1234
 
-You have (2) account
-Account 0, bank account number : 987
-Account 1, bank account number : 654
-Select Account (0~1)
+	You have (2) account
+	Account 0, bank account number : 987
+	Account 1, bank account number : 654
+	Select Account (0~1)
 
 4. input : 0
 
-Select Task(0~3)
-0. Account Balance
-1. Deposit
-2. Withdraw
-3. Exit
+	Select Task(0~3)
+	0. Account Balance
+	1. Deposit
+	2. Withdraw
+	3. Exit
 
 5. input : 0
 
-Your Balance : 2000
+	Your Balance : 2000
 
 
-Select Task(0~3)
-0. Account Balance
-1. Deposit
-2. Withdraw
-3. Exit
+	Select Task(0~3)
+	0. Account Balance
+	1. Deposit
+	2. Withdraw
+	3. Exit
 
 6. input : 1
 
-After you put the money in,
-Please write down the deposit amount(-1 for Exit) :
+	After you put the money in,
+	Please write down the deposit amount(-1 for Exit) :
 
 7. input : 1000
 
-Success Deposite
+	Success Deposite
 
-Select Task(0~3)
-0. Account Balance
-1. Deposit
-2. Withdraw
-3. Exit
+	Select Task(0~3)
+	0. Account Balance
+	1. Deposit
+	2. Withdraw
+	3. Exit
 
 8. input : 2
 
-Please write down the withdrawal amount(-1 for Exit) :
+	Please write down the withdrawal amount(-1 for Exit) :
 
 9. input : 100
 
-Success Withdrawal
+	Success Withdrawal
 
-Select Task(0~3)
-0. Account Balance
-1. Deposit
-2. Withdraw
-3. Exit
+	Select Task(0~3)
+	0. Account Balance
+	1. Deposit
+	2. Withdraw
+	3. Exit
 
 10. input : 0
 
-Your Balance : 2900
+	Your Balance : 2900
 
 
-Select Task(0~3)
-0. Account Balance
-1. Deposit
-2. Withdraw
-3. Exit
+	Select Task(0~3)
+	0. Account Balance
+	1. Deposit
+	2. Withdraw
+	3. Exit
 
 
 11. input : 3
 
-Thank you.
-Please remove your card
+	Thank you.
+	Please remove your card
 
-------------------------------------------------
---------------Welcome to SKD Bank---------------
-------------------------------------------------
-After insert card, press y
+	------------------------------------------------
+	--------------Welcome to SKD Bank---------------
+	------------------------------------------------
+	After insert card, press y
