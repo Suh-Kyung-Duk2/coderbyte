@@ -67,8 +67,11 @@ Account list
 	Select Task(0~3)
 
 	0 Account Balance
+
 	1 Deposit
+
 	2 Withdraw
+	
 	3 Exit
 
 5. input : 0
@@ -78,10 +81,13 @@ Account list
 
 	Select Task(0~3)
 
-	0. Account Balance
-	1. Deposit
-	2. Withdraw
-	3. Exit
+	0 Account Balance
+
+	1 Deposit
+
+	2 Withdraw
+	
+	3 Exit
 
 6. input : 1
 
@@ -95,10 +101,13 @@ Account list
 
 	Select Task(0~3)
 
-	0. Account Balance
-	1. Deposit
-	2. Withdraw
-	3. Exit
+	0 Account Balance
+
+	1 Deposit
+
+	2 Withdraw
+	
+	3 Exit
 
 8. input : 2
 
@@ -110,10 +119,13 @@ Account list
 
 	Select Task(0~3)
 
-	0. Account Balance
-	1. Deposit
-	2. Withdraw
-	3. Exit
+	0 Account Balance
+
+	1 Deposit
+
+	2 Withdraw
+	
+	3 Exit
 
 10. input : 0
 
@@ -122,10 +134,13 @@ Account list
 
 	Select Task(0~3)
 
-	0. Account Balance
-	1. Deposit
-	2. Withdraw
-	3. Exit
+	0 Account Balance
+
+	1 Deposit
+
+	2 Withdraw
+	
+	3 Exit
 
 
 11. input : 3
