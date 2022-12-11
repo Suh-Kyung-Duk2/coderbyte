@@ -1,8 +1,8 @@
 # Bear Robotics Korea :: Implement a simple ATM controller
+
 --------
+
 Write code for a simple ATM. It doesn't need any UI (either graphical or console), but a controller should be implemented and tested.
-
-
 
 # Requirements
 At least the following flow should be implemented:
@@ -30,17 +30,13 @@ Based on your work, another engineer should be able to implement the user interf
 You can simplify some complex real world problems if you think it's not worth illustrating in the project.
 
 # Instructions
-Created one Card in my code
-Main code for Quod client
-- Based on : **Processing 3.0.1** 
-- for more information, visit 
-<<<<<<< Updated upstream
-- reference : 
-=======
-- reference : 
->>>>>>> Stashed changes
-- version info : v0.6.1BUILD58
+Created one card and two accounts for test
 
---------
-## Basic Requirements for Development
-Install Processing sound Libraries at sketch - Import Libraries - Add Libraries **Sound**
+Pin : 1234
+
+<Account list>
+0. Account number 987, money 2000
+1. Account number 654, money 1000
+
+
+
