@@ -1,4 +1,5 @@
 # Bear Robotics Korea :: Implement a simple ATM controller
+![베어로보틱스_서빙로봇](https://user-images.githubusercontent.com/120086749/206920099-59cf4999-0593-42d0-841a-44e4a3e328fc.png)
 
 --------
 
