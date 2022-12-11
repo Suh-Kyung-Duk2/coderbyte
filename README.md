@@ -30,13 +30,18 @@ Based on your work, another engineer should be able to implement the user interf
 You can simplify some complex real world problems if you think it's not worth illustrating in the project.
 
 # Initialization
-Created one card and two accounts for test
+
+The bank server has one card with two account data for testing.
 
 Pin : 1234
 
 Account list
+
 0. Account number 987, money 2000
+
 1. Account number 654, money 1000
+
+ATM is powered from main()
 
 # Tutorial
 
@@ -71,7 +76,7 @@ Account list
 	1 Deposit
 
 	2 Withdraw
-	
+
 	3 Exit
 
 5. input : 0
