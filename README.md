@@ -49,18 +49,23 @@ Account list
 	Card reading...
 
 	Card validated!!
+
 	Please enter your pin number
 
 3. input : 1234
 
 	You have (2) account
+
 	Account 0, bank account number : 987
+
 	Account 1, bank account number : 654
+
 	Select Account (0~1)
 
 4. input : 0
 
 	Select Task(0~3)
+
 	0. Account Balance
 	1. Deposit
 	2. Withdraw
@@ -72,6 +77,7 @@ Account list
 
 
 	Select Task(0~3)
+
 	0. Account Balance
 	1. Deposit
 	2. Withdraw
@@ -80,6 +86,7 @@ Account list
 6. input : 1
 
 	After you put the money in,
+
 	Please write down the deposit amount(-1 for Exit) :
 
 7. input : 1000
@@ -87,6 +94,7 @@ Account list
 	Success Deposite
 
 	Select Task(0~3)
+
 	0. Account Balance
 	1. Deposit
 	2. Withdraw
@@ -101,6 +109,7 @@ Account list
 	Success Withdrawal
 
 	Select Task(0~3)
+
 	0. Account Balance
 	1. Deposit
 	2. Withdraw
@@ -112,6 +121,7 @@ Account list
 
 
 	Select Task(0~3)
+
 	0. Account Balance
 	1. Deposit
 	2. Withdraw
@@ -121,9 +131,5 @@ Account list
 11. input : 3
 
 	Thank you.
-	Please remove your card
 
-	------------------------------------------------
-	--------------Welcome to SKD Bank---------------
-	------------------------------------------------
-	After insert card, press y
+	Please remove your card
