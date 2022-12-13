@@ -42,7 +42,8 @@ To compile, please execute the following:
 ```bash
 $ find ./ATM_Project -name "ATM_Project.sln"
 ```
-Note that already provided compiled .exe file using 2019 Visual Studio 
+Note that already provided compiled .exe file using Microsoft Visual Studio Professional 2019
+ver 16.11.16
 
 ##### Running the ATM
 Once compiled, the program can run as follows:
