@@ -78,7 +78,7 @@ To use the ATM as a Client:
 - After selecting an account, the ATM machine asks the user to choose between See Balance, Deposite, Withdraw and Exit.
 
 
-# Tutorial
+##### Example
 
 ![ATM](https://user-images.githubusercontent.com/120086749/207247541-1aca64c0-81be-4210-82a9-2a8260675ded.JPG)
 
