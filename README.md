@@ -1,7 +1,6 @@
 # Bear Robotics Korea :: Implement a simple ATM controller
-![1020440](https://user-images.githubusercontent.com/120086749/206920349-290cd4df-0ac3-4289-9213-0e9f76d1040d.png)
 
---------
+
 
 
 
@@ -33,7 +32,7 @@ Based on your work, another engineer should be able to implement the user interf
 
 
 You can simplify some complex real world problems if you think it's not worth illustrating in the project.
-
+--------
 # Instructions
 
 
@@ -56,7 +55,7 @@ $ find ./ATM_Project/x64/Debug -name "ATM_Project.exe"
 
 - Verify whether it is valid card.
 - Verify whether it is valid Pin.
-- The balance confirmation is supported.
+- See Balance/Deposite/Withdraw is supported.
 - Deposit is supported under $1,000,000, and if there is too much balance in the account(overflow), it prints that deposit is not possible.
 - It supports withdrawals of less than $1,000,000, and prints impossible if the balance is insufficient.
 - The ATM is powered by admin in the main() function. While the power is on, the ATM receives customers.
@@ -77,7 +76,7 @@ To use the ATM as a Client:
 - If the card is a valid, Atm asks you to enter a Pin number.
 - If the Pin number is valid, the ATM machine prints out a list of accounts tied to the card and asks the user to select an account.
 - After selecting an account, the ATM machine requires the user to choose between Account Balance, Deposition, Withdraw, and Exit.
-
+--------
 # Tutorial
 
 ![ATM](https://user-images.githubusercontent.com/120086749/207247541-1aca64c0-81be-4210-82a9-2a8260675ded.JPG)
