@@ -56,8 +56,8 @@ $ find ./ATM_Project/x64/Debug -name "ATM_Project.exe"
 - Verify whether it is valid card.
 - Verify whether it is valid Pin.
 - See Balance/Deposite/Withdraw is supported.
-- Deposit is supported under $1,000,000, and if there is too much balance in the account(overflow), it prints that deposit is not possible.
-- It supports withdrawals of less than $1,000,000, and prints impossible if the balance is insufficient.
+- Deposit is supported under $100,000, and if there is too much balance in the account(overflow), it prints that deposit is not possible.
+- It supports withdrawals of less than $100,000, and prints impossible if the balance is insufficient.
 - The ATM is powered by admin in the main() function. While the power is on, the ATM receives customers.
 
 ##### Initializations
