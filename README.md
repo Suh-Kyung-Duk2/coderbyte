@@ -57,7 +57,7 @@ $ find ./ATM_Project/x64/Debug -name "ATM_Project.exe"
 - Verify whether it is valid Pin.
 - See Balance/Deposite/Withdraw is supported.
 - Deposit is supported under $100,000, and if there is too much balance in the account(overflow), it prints that deposit is not possible.
-- It supports withdrawals of less than $100,000, and prints impossible if the balance is insufficient.
+- It supports withdrawal of less than $100,000, and prints impossible if the balance is insufficient.
 - The ATM is powered by admin in the main() function. While the power is on, the ATM receives customers.
 
 ##### Initializations
@@ -71,11 +71,11 @@ $ find ./ATM_Project/x64/Debug -name "ATM_Project.exe"
 ##### How to use 
 
 To use the ATM as a Client:
-- Once started, the ATM machine asks you to press the y value if you put the card in to the machine.
+- Once started, the ATM machine asks you to press "y" if you put the card in to the machine.
 - After card is inserted, Atm asks for card validation to ServerDB.
 - If the card is a valid, Atm asks you to enter a Pin number.
 - If the Pin number is valid, the ATM machine prints out a list of accounts tied to the card and asks the user to select an account.
-- After selecting an account, the ATM machine requires the user to choose between Account Balance, Deposition, Withdraw, and Exit.
+- After selecting an account, the ATM machine asks the user to choose between See Balance, Deposite, Withdraw and Exit.
 
 
 # Tutorial
