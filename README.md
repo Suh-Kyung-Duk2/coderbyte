@@ -53,29 +53,29 @@ $ find ./ATM_Project/x64/Debug -name "ATM_Project.exe"
 
 ##### Features 
 
-- Verify whether it is valid card.
-- Verify whether it is valid Pin.
-- See Balance/Deposite/Withdraw is supported.
+- Verify whether it is a valid card.
+- Verify whether it is a valid Pin.
+- See Balance/Deposit/Withdraw is supported.
 - Deposit is supported under $100,000, and if there is too much balance in the account(overflow), it prints that deposit is not possible.
-- It supports withdrawal of less than $100,000, and prints impossible if the balance is insufficient.
+- It supports the withdrawal of less than $100,000, and prints impossible if the balance is insufficient.
 - The ATM is powered by admin in the main() function. While the power is on, the ATM receives customers.
 
 ##### Initializations
 
 - For the experiment, I put one card and two accounts on the bank's server.
-- Pin : 1234
+- Pin: 1234
 - Account list
-0. Account number : 987, Balance : $2,000
-1. Account number : 654, Balance : $1,000
+0. Account number: 987, Balance: $2,000
+1. Account number: 654, Balance: $1,000
 
 ##### How to use 
 
 To use the ATM as a Client:
-- Once started, the ATM machine asks you to press "y" if you put the card in to the machine.
-- After card is inserted, Atm asks for card validation to ServerDB.
-- If the card is a valid, Atm asks you to enter a Pin number.
-- If the Pin number is valid, the ATM machine prints out a list of accounts tied to the card and asks the user to select an account.
-- After selecting an account, the ATM machine asks the user to choose between See Balance, Deposite, Withdraw and Exit.
+- Once started, the ATM asks you to press "y" if you put the card into the machine.
+- After a card is inserted, Atm asks for card validation to ServerDB.
+- If the card is valid, Atm asks you to enter a Pin.
+- If the Pin is valid, the ATM prints out a list of accounts tied to the card and asks the user to select an account.
+- After selecting an account, the ATM asks the user to choose between See Balance, Deposit, Withdraw, and Exit.
 
 
 ##### Example
