@@ -29,10 +29,9 @@ A bank API wouldn't give the ATM the PIN number, but it can tell you if the PIN 
 
 Based on your work, another engineer should be able to implement the user interface. You don't need to implement any REST API, RPC, network communication etc, but just functions/classes/methods, etc.
 
-
-
 You can simplify some complex real world problems if you think it's not worth illustrating in the project.
---------
+
+
 # Instructions
 
 
@@ -76,7 +75,8 @@ To use the ATM as a Client:
 - If the card is a valid, Atm asks you to enter a Pin number.
 - If the Pin number is valid, the ATM machine prints out a list of accounts tied to the card and asks the user to select an account.
 - After selecting an account, the ATM machine requires the user to choose between Account Balance, Deposition, Withdraw, and Exit.
---------
+
+
 # Tutorial
 
 ![ATM](https://user-images.githubusercontent.com/120086749/207247541-1aca64c0-81be-4210-82a9-2a8260675ded.JPG)
