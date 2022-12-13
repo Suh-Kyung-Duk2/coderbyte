@@ -36,14 +36,7 @@ You can simplify some complex real world problems if you think it's not worth il
 
 # Instructions
 
-The bank server has one card with two account data for testing.
 
-Pin : 1234
-
-Account list
-
-0. Account number 987, money 2000
-1. Account number 654, money 1000
 
 
 ##### Compilation Instructions:
@@ -68,7 +61,13 @@ $ find ./ATM_Project/x64/Debug -name "ATM_Project.exe"
 - It supports withdrawals of less than $1,000,000, and prints impossible if the balance is insufficient.
 - The ATM is powered by admin in the main() function. While the power is on, the ATM receives customers.
 
+##### Initializations
 
+- For the experiment, I put one card and two accounts on the bank's server.
+- Pin : 1234
+- Account list
+0. Account number 987, money 2000
+1. Account number 654, money 1000
 
 ##### How to use 
 
@@ -81,5 +80,5 @@ To use the ATM as a Client:
 
 # Tutorial
 
-	![ATM](https://user-images.githubusercontent.com/120086749/207247541-1aca64c0-81be-4210-82a9-2a8260675ded.JPG)
+![ATM](https://user-images.githubusercontent.com/120086749/207247541-1aca64c0-81be-4210-82a9-2a8260675ded.JPG)
 
