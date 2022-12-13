@@ -66,8 +66,8 @@ $ find ./ATM_Project/x64/Debug -name "ATM_Project.exe"
 - For the experiment, I put one card and two accounts on the bank's server.
 - Pin : 1234
 - Account list
-0. Account number 987, money 2000
-1. Account number 654, money 1000
+0. Account number : 987, Balance : $2,000
+1. Account number : 654, Balance : $1,000
 
 ##### How to use 
 
