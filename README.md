@@ -30,7 +30,7 @@ Based on your work, another engineer should be able to implement the user interf
 
 You can simplify some complex real world problems if you think it's not worth illustrating in the project.
 
-# Initialization
+# Instructions
 
 The bank server has one card with two account data for testing.
 
@@ -43,6 +43,29 @@ Account list
 1. Account number 654, money 1000
 
 ATM is powered from main()
+
+##### Compilation Instructions:
+To compile, please execute the following steps:
+```bash
+$ find ./ATM_Project -name "ATM_Project.sln"
+```
+Note that i have already provided compiled .exe file using 2019 Visual Studio 
+
+##### Running the ATM
+Once, compiled the program can be run as follows:
+```bash
+$ find ./ATM_Project/x64/Debug -name "ATM_Project.exe"
+```
+
+
+##### Usage 
+
+To use the ATM as a Client:
+- Once started, the ATM machine asks you to press the y value if you put the card in to the machine.
+- After card is inserted, Atm asks for card validation to ServerDB.
+- If the card is a valid, Atm asks you to enter a Pin number.
+- If the Pin number is valid, the ATM machine prints out a list of accounts tied to the card and asks the user to select an account.
+- After selecting an account, the ATM machine requires the user to choose between Account Balance, Deposition, Withdraw, and Exit.
 
 # Tutorial
 
@@ -63,7 +86,6 @@ ATM is powered from main()
 	You have (2) account
 
 	Account 0, bank account number : 987
-
 	Account 1, bank account number : 654
 
 	Select Account (0~1)
@@ -72,13 +94,10 @@ ATM is powered from main()
 
 	Select Task(0~3)
 
-	0 Account Balance
-
-	1 Deposit
-
-	2 Withdraw
-
-	3 Exit
+	-0 Account Balance
+	-1 Deposit
+	-2 Withdraw
+	-3 Exit
 
 5. input : 0
 
@@ -95,65 +114,11 @@ ATM is powered from main()
 	
 	3 Exit
 
-6. input : 1
-
-	After you put the money in,
-
-	Please write down the deposit amount(-1 for Exit) :
-
-7. input : 1000
-
-	Success Deposite
-
-	Select Task(0~3)
-
-	0 Account Balance
-
-	1 Deposit
-
-	2 Withdraw
-	
-	3 Exit
-
-8. input : 2
-
-	Please write down the withdrawal amount(-1 for Exit) :
-
-9. input : 100
-
-	Success Withdrawal
-
-	Select Task(0~3)
-
-	0 Account Balance
-
-	1 Deposit
-
-	2 Withdraw
-	
-	3 Exit
-
-10. input : 0
-
-	Your Balance : 2900
-
-
-	Select Task(0~3)
-
-	0 Account Balance
-
-	1 Deposit
-
-	2 Withdraw
-	
-	3 Exit
-
-
-11. input : 3
+6. input : 3
 
 	Thank you.
 
 	Please remove your card
-	
-![1](https://user-images.githubusercontent.com/120086749/206919904-b24c3e39-f3b2-49ed-8fbb-64fbb98ddb30.JPG)
-![2](https://user-images.githubusercontent.com/120086749/206919942-1231f876-c9f1-482b-b543-672f7195c7b1.JPG)
+
+	![ATM](https://user-images.githubusercontent.com/120086749/207247541-1aca64c0-81be-4210-82a9-2a8260675ded.JPG)
+
