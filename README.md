@@ -39,26 +39,34 @@ Pin : 1234
 Account list
 
 0. Account number 987, money 2000
-
 1. Account number 654, money 1000
 
-ATM is powered from main()
 
 ##### Compilation Instructions:
-To compile, please execute the following steps:
+To compile, please execute the following:
 ```bash
 $ find ./ATM_Project -name "ATM_Project.sln"
 ```
-Note that i have already provided compiled .exe file using 2019 Visual Studio 
+Note that already provided compiled .exe file using 2019 Visual Studio 
 
 ##### Running the ATM
-Once, compiled the program can be run as follows:
+Once compiled, the program can run as follows:
 ```bash
 $ find ./ATM_Project/x64/Debug -name "ATM_Project.exe"
 ```
 
+##### Features 
 
-##### Usage 
+- Verify whether it is valid card.
+- Verify whether it is valid Pin.
+- The balance confirmation is supported.
+- Deposit is supported under $1,000,000, and if there is too much balance in the account(overflow), it prints that deposit is not possible.
+- It supports withdrawals of less than $1,000,000, and prints impossible if the balance is insufficient.
+- The ATM is powered by admin in the main() function. While the power is on, the ATM receives customers.
+
+
+
+##### How to use 
 
 To use the ATM as a Client:
 - Once started, the ATM machine asks you to press the y value if you put the card in to the machine.
@@ -68,57 +76,6 @@ To use the ATM as a Client:
 - After selecting an account, the ATM machine requires the user to choose between Account Balance, Deposition, Withdraw, and Exit.
 
 # Tutorial
-
-1. start
-
-	After insert card, press y
-
-2. input : y
-
-	Card reading...
-
-	Card validated!!
-
-	Please enter your pin number
-
-3. input : 1234
-
-	You have (2) account
-
-	Account 0, bank account number : 987
-	Account 1, bank account number : 654
-
-	Select Account (0~1)
-
-4. input : 0
-
-	Select Task(0~3)
-
-	-0 Account Balance
-	-1 Deposit
-	-2 Withdraw
-	-3 Exit
-
-5. input : 0
-
-	Your Balance : 2000
-
-
-	Select Task(0~3)
-
-	0 Account Balance
-
-	1 Deposit
-
-	2 Withdraw
-	
-	3 Exit
-
-6. input : 3
-
-	Thank you.
-
-	Please remove your card
 
 	![ATM](https://user-images.githubusercontent.com/120086749/207247541-1aca64c0-81be-4210-82a9-2a8260675ded.JPG)
 
