@@ -3,9 +3,13 @@
 
 --------
 
-Write code for a simple ATM. It doesn't need any UI (either graphical or console), but a controller should be implemented and tested.
+
 
 # Requirements
+
+Write code for a simple ATM. It doesn't need any UI (either graphical or console), but a controller should be implemented and tested.
+
+
 At least the following flow should be implemented:
 
 Insert Card => PIN number => Select Account => See Balance/Deposit/Withdraw
